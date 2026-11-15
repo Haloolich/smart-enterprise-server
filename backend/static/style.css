@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f4f9;
+    color: #263445;
+}
+
+.header {
+    background: #172b4d;
+    color: white;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h1 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #c4d1e5;
+    font-size: 14px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background: #22c55e;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.sensor-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(180px, 1fr)
+    );
+    gap: 18px;
+}
+
+.sensor-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sensor-card span {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.sensor-card strong {
+    font-size: 30px;
+    color: #1d4ed8;
+}
+
+.sensor-card small {
+    color: #64748b;
+}
+
+.chart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    height: 320px;
+}
+
+.table-container {
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+th {
+    color: #64748b;
+    background: #f8fafc;
+}
+
+.enabled {
+    color: #15803d;
+    font-weight: bold;
+}
+
+.disabled {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.event {
+    background: white;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #f59e0b;
+}
+
+.event p {
+    margin-top: 6px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+}
+
+#last-update {
+    display: block;
+    margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .chart-container {
+        height: 260px;
+    }
+}

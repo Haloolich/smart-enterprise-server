@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Enterprise | Dashboard</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Smart Enterprise</h1>
+            <p>Система моніторингу та керування інфраструктурою</p>
+        </div>
+
+        <div class="connection">
+            <span class="status-dot"></span>
+            <span id="server-status">Перевірка сервера...</span>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section">
+            <h2>Поточні показники</h2>
+
+            <div class="sensor-grid">
+
+                <div class="sensor-card">
+                    <span>Температура</span>
+                    <strong id="temperature">--</strong>
+                    <small>°C</small>
+                </div>
+
+                <div class="sensor-card">
+                    <span>Вологість</span>
+                    <strong id="humidity">--</strong>
+                    <small>%</small>
+                </div>
+
+                <div class="sensor-card">
+                    <span>Рівень газу</span>
+                    <strong id="gas">--</strong>
+                    <small>ppm</small>
+                </div>
+
+                <div class="sensor-card">
+                    <span>Освітленість</span>
+                    <strong id="light">--</strong>
+                    <small>lux</small>
+                </div>
+
+                <div class="sensor-card">
+                    <span>Виявлення руху</span>
+                    <strong id="motion">--</strong>
+                    <small>стан</small>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Графік температури</h2>
+
+            <div class="chart-container">
+                <canvas id="temperature-chart"></canvas>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Правила автоматизації</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Назва правила</th>
+                            <th>Датчик</th>
+                            <th>Умова</th>
+                            <th>Дія</th>
+                            <th>Стан</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="rules-table">
+                        <tr>
+                            <td colspan="5">Завантаження...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Журнал подій</h2>
+
+            <div id="events-list">
+                <p>Завантаження подій...</p>
+            </div>
+        </section>
+
+        <footer>
+            Smart Enterprise Infrastructure Server
+            <span id="last-update"></span>
+        </footer>
+
+    </main>
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
