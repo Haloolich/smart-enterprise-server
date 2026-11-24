@@ -1,0 +1,237 @@
+2026-11-23 16:07:36,484 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:07:36,489 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:07:36,490 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:07:36,490 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:13:53,990 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:13:55,337 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:13:55,342 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:13:55,342 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:13:55,343 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:15:36,307 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:15:37,805 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:15:37,810 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:15:37,810 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:15:37,811 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:16:12,147 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:16:13,541 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:16:13,546 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:16:13,546 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:16:13,547 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:18:47,021 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:18:48,436 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:25:28,108 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:25:28,117 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:25:28,118 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:25:28,118 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:02,797 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:30:04,506 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:30:04,512 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:30:04,512 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:30:04,513 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:31,771 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:30:33,638 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:30:33,644 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:30:33,645 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:30:33,647 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:59,908 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:31:01,718 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:31:01,723 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:31:01,724 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:31:01,724 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:33:03,026 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:33:04,858 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:33:04,883 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:33:04,883 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:33:04,887 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:33:41,274 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:33:43,082 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:33:43,088 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:33:43,088 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:33:43,089 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:34:19,461 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:34:21,270 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:34:21,276 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:34:21,276 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:34:21,277 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:38:25,696 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:38:27,436 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:38:27,445 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:38:27,446 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:38:27,449 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:39:10,857 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:39:12,577 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:39:12,582 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:39:12,583 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:39:12,583 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:39:30,747 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:39:32,568 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:39:32,574 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:39:32,574 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:39:32,575 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:51:38,827 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:51:40,630 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:51:40,636 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:51:40,636 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:51:40,637 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:55:53,175 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:56:27,878 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:56:27,884 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:56:27,885 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:56:27,885 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:07:53,857 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:08:52,106 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:08:52,112 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:08:52,113 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:08:52,113 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:17:46,516 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:17:48,475 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:17:48,482 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:17:48,482 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:17:48,483 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:34:33,504 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:34:35,480 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:34:35,486 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:34:35,486 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:34:35,487 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:36:03,372 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:36:05,387 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:36:05,394 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:36:05,395 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:36:05,397 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:36:27,633 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:36:29,549 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:36:29,555 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:36:29,555 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:36:29,556 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:37:29,157 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:37:31,164 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:37:31,169 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:37:31,169 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:37:31,171 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:37:59,457 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:38:01,313 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:38:01,319 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:38:01,319 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:38:01,320 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:38:36,611 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:38:55,076 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:38:55,083 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:38:55,084 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:38:55,084 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:39:19,338 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:39:21,240 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:39:21,245 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:39:21,245 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:39:21,246 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:39:55,588 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:39:57,304 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:39:57,310 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:39:57,310 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:39:57,311 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:10,000 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:11,768 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:11,773 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:11,773 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:11,775 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:31,940 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:33,685 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:33,691 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:33,691 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:33,692 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:57,959 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:59,820 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:59,829 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:59,830 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:59,835 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:42:11,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:42:13,718 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:42:13,724 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:42:13,724 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:42:13,725 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:42:37,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:43:43,609 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:43:43,614 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:43:43,615 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:43:43,615 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:55:14,493 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:55:16,355 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:55:16,361 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:55:16,361 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:55:16,366 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:55:28,490 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:55:30,260 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:55:30,266 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:55:30,266 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:55:30,267 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:06:35,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:06:37,512 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:06:37,517 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:06:37,517 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:06:37,518 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:07:29,047 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:07:30,544 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:07:30,550 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:07:30,551 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:07:30,551 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:07:53,753 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:07:55,172 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:07:55,177 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:07:55,177 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:07:55,178 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:11:07,095 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:15:19,604 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:15:19,614 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:15:19,623 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:15:19,624 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:19:36,151 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:19:37,666 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:19:37,671 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:19:37,672 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:19:37,672 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:23:40,135 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:23:41,785 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:23:41,792 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:23:41,792 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:23:41,793 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:24:40,358 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:24:41,622 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:24:41,627 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:24:41,627 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:24:41,628 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:25:07,861 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:25:09,384 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:25:09,389 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:25:09,389 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:25:09,390 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:35:47,510 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:35:49,088 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:35:49,094 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:35:49,094 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:35:49,095 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:39:31,337 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:39:33,001 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:39:33,006 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:39:33,007 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:39:33,007 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:40:25,499 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:40:26,941 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:41:43,730 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:41:45,291 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:41:45,295 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:41:45,296 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:41:45,296 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:48:20,062 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:48:21,719 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:48:21,724 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:48:21,725 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:48:21,725 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 03:48:31,534 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 03:48:31,535 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 15:40:17,537 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 15:40:17,591 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading

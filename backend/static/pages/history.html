@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Enterprise | Історія команд</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div id="sidebar-container"></div>
+
+    <header class="header">
+        <div>
+            <h1>Історія команд</h1>
+            <p>Журнал керування виконавчими пристроями</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section">
+            <h2>Виконані команди</h2>
+
+            <div class="table-container">
+                <table id="commands-table">
+                    <thead>
+                        <tr>
+                            <th>Пристрій</th>
+                            <th>Тип команди</th>
+                            <th>Джерело</th>
+                            <th>Результат</th>
+                            <th>Дата та час</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td colspan="5">Завантаження історії...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p id="last-update">Очікування даних...</p>
+        </section>
+
+        <footer>
+            Smart Enterprise Infrastructure Server
+        </footer>
+
+    </main>
+
+    <script src="/static/menu.js"></script>
+    <script src="/static/api.js"></script>
+    <script src="/static/history.js"></script>
+
+</body>
+</html>
