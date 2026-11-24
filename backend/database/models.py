@@ -8,11 +8,15 @@ from sqlalchemy import (
     Float,
     DateTime,
     ForeignKey,
-    Boolean
+    Boolean,
+    Text
 )
 from sqlalchemy.orm import relationship
 
 from backend.database.database import Base
+from datetime import datetime, timezone
+from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, Boolean
 
 
 # Таблиця пристроїв
@@ -103,6 +107,13 @@ class AutomationRule(Base):
         nullable=False
     )
 
+    last_condition_state = Column(
+        Boolean,
+        default=False,
+        nullable=False
+    )
+
+
 
 # Журнал автоматичних подій
 class AutomationEvent(Base):
@@ -128,3 +139,158 @@ class AutomationEvent(Base):
     )
 
     rule = relationship("AutomationRule")
+
+
+# Налаштування режиму керування системою
+class SystemSettings(Base):
+    __tablename__ = "system_settings"
+
+    id = Column(Integer, primary_key=True)
+    control_mode = Column(
+        String,
+        default="automatic",
+        nullable=False
+    )
+
+
+# Таблиця виконавчих пристроїв
+class Actuator(Base):
+    __tablename__ = "actuators"
+
+    id = Column(Integer, primary_key=True, index=True)
+
+    code = Column(
+        String,
+        unique=True,
+        nullable=False,
+        index=True
+    )
+
+    name = Column(String, nullable=False)
+
+    actuator_type = Column(String, nullable=False)
+
+    state = Column(
+        String,
+        default="off",
+        nullable=False
+    )
+
+    connection_type = Column(
+        String,
+        default="virtual",
+        nullable=False
+    )
+
+    updated_at = Column(
+        DateTime(timezone=True),
+        default=lambda: datetime.now(timezone.utc)
+    )
+
+
+# Журнал команд виконавчим пристроям
+class DeviceCommand(Base):
+    __tablename__ = "device_commands"
+
+    id = Column(Integer, primary_key=True, index=True)
+
+    actuator_id = Column(
+        Integer,
+        ForeignKey("actuators.id"),
+        nullable=False
+    )
+
+    rule_id = Column(
+        Integer,
+        ForeignKey("automation_rules.id"),
+        nullable=True
+    )
+
+    source = Column(String, nullable=False)
+
+    command = Column(String, nullable=False)
+
+    result = Column(String, nullable=False)
+
+    mqtt_topic = Column(String, nullable=False)
+
+    payload = Column(Text, nullable=False)
+
+    created_at = Column(
+        DateTime(timezone=True),
+        default=lambda: datetime.now(timezone.utc)
+    )
+
+    actuator = relationship("Actuator")
+    rule = relationship("AutomationRule")
+
+# Журнал адміністративних дій
+class AuditLog(Base):
+    __tablename__ = "audit_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+
+    action = Column(
+        String,
+        nullable=False
+    )
+
+    description = Column(
+        Text,
+        nullable=False
+    )
+
+    entity_type = Column(
+        String,
+        nullable=True
+    )
+
+    entity_id = Column(
+        Integer,
+        nullable=True
+    )
+
+    created_at = Column(
+        DateTime(timezone=True),
+        default=lambda: datetime.now(timezone.utc),
+        nullable=False
+    )
+# Користувачі системи
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(
+        Integer,
+        primary_key=True,
+        index=True
+    )
+
+    username = Column(
+        String(100),
+        unique=True,
+        nullable=False,
+        index=True
+    )
+
+    password_hash = Column(
+        String(255),
+        nullable=False
+    )
+
+    role = Column(
+        String(50),
+        default="user",
+        nullable=False
+    )
+
+    is_active = Column(
+        Boolean,
+        default=True,
+        nullable=False
+    )
+
+    created_at = Column(
+        DateTime(timezone=True),
+        default=lambda: datetime.now(timezone.utc),
+        nullable=False
+    )

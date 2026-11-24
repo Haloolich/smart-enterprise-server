@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Enterprise | Пристрої</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div id="sidebar-container"></div>
+
+    <header class="header">
+        <div>
+            <h1>Керування пристроями</h1>
+            <p>Моніторинг та ручне керування виконавчими пристроями</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section">
+            <h2>Виконавчі пристрої</h2>
+
+            <div class="actuator-grid">
+
+                <div class="actuator-card">
+                    <div>
+                        <h3>Система вентиляції</h3>
+                        <p>Керування вентиляцією підприємства</p>
+                    </div>
+
+                    <span id="ventilation-state" class="actuator-state">
+                        Завантаження...
+                    </span>
+
+                    <div class="actuator-buttons">
+                        <button onclick="controlActuator(1, 'turn_on')">
+                            Увімкнути
+                        </button>
+
+                        <button onclick="controlActuator(1, 'turn_off')">
+                            Вимкнути
+                        </button>
+                    </div>
+                </div>
+
+                <div class="actuator-card">
+                    <div>
+                        <h3>Система освітлення</h3>
+                        <p>Керування освітленням приміщення</p>
+                    </div>
+
+                    <span id="lighting-state" class="actuator-state">
+                        Завантаження...
+                    </span>
+
+                    <div class="actuator-buttons">
+                        <button onclick="controlActuator(2, 'turn_on')">
+                            Увімкнути
+                        </button>
+
+                        <button onclick="controlActuator(2, 'turn_off')">
+                            Вимкнути
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <p id="actuator-message"></p>
+        </section>
+
+        <footer>
+            Smart Enterprise Infrastructure Server
+        </footer>
+
+    </main>
+
+    <script src="/static/menu.js"></script>
+    <script src="/static/api.js"></script>
+    <script src="/static/devices.js"></script>
+
+</body>
+</html>
