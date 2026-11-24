@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Журнал аудиту</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div id="sidebar-container"></div>
+
+    <div class="audit-header">
+        <h1>Журнал аудиту</h1>
+        <p>Історія адміністративних дій у системі</p>
+    </div>
+
+    <div class="audit-card">
+
+        <h2>Записи журналу</h2>
+
+            <button id="refresh-audit">
+                Оновити
+            </button>
+
+            <p id="audit-status">
+                Завантаження записів...
+            </p>
+
+            <div class="table-container">
+
+                <table id="audit-table">
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Дата та час</th>
+                            <th>Дія</th>
+                            <th>Об'єкт</th>
+                            <th>ID об'єкта</th>
+                            <th>Опис</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/menu.js"></script>
+    <script src="/static/api.js"></script>
+    <script src="/static/audit.js"></script>
+
+</body>
+</html>

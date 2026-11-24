@@ -12,6 +12,13 @@ from backend.mqtt_client import start_mqtt, stop_mqtt
 from pathlib import Path
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
+from backend.database.models import Actuator, DeviceCommand
+from backend.logging_config import setup_logging
+from backend.api.auth_routes import router as auth_router
+from backend.api.user_routes import router as user_router
+
+# Налаштування журналювання сервера
+setup_logging()
 
 # Створення таблиць бази даних
 Base.metadata.create_all(bind=engine)
@@ -39,6 +46,8 @@ app = FastAPI(
 
 
 app.include_router(router)
+app.include_router(auth_router)
+app.include_router(user_router)
 
 # Підключення статичних файлів
 STATIC_DIR = Path(__file__).parent / "static"
@@ -54,6 +63,10 @@ app.mount(
 @app.get("/dashboard", include_in_schema=False)
 def dashboard():
     return FileResponse(STATIC_DIR / "dashboard.html")
+# Сторінка авторизації
+@app.get("/login", include_in_schema=False)
+def login_page():
+    return FileResponse(STATIC_DIR / "login.html")
 
 
 @app.get("/")

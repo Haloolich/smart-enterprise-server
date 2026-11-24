@@ -1,0 +1,520 @@
+2026-11-23 16:07:36,484 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:07:36,489 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:07:36,490 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:07:36,490 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:13:53,990 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:13:55,337 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:13:55,342 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:13:55,342 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:13:55,343 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:15:36,307 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:15:37,805 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:15:37,810 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:15:37,810 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:15:37,811 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:16:12,147 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:16:13,541 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:16:13,546 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:16:13,546 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:16:13,547 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 16:18:47,021 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 16:18:48,436 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 16:18:48,442 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:25:28,108 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:25:28,117 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:25:28,118 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:25:28,118 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:02,797 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:30:04,506 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:30:04,512 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:30:04,512 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:30:04,513 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:31,771 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:30:33,638 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:30:33,644 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:30:33,645 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:30:33,647 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:30:59,908 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:31:01,718 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:31:01,723 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:31:01,724 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:31:01,724 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:33:03,026 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:33:04,858 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:33:04,883 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:33:04,883 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:33:04,887 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:33:41,274 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:33:43,082 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:33:43,088 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:33:43,088 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:33:43,089 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:34:19,461 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:34:21,270 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:34:21,276 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:34:21,276 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:34:21,277 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:38:25,696 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:38:27,436 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:38:27,445 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:38:27,446 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:38:27,449 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:39:10,857 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:39:12,577 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:39:12,582 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:39:12,583 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:39:12,583 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:39:30,747 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:39:32,568 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:39:32,574 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:39:32,574 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:39:32,575 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:51:38,827 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:51:40,630 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:51:40,636 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:51:40,636 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:51:40,637 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 22:55:53,175 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 22:56:27,878 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 22:56:27,884 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 22:56:27,885 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 22:56:27,885 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:07:53,857 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:08:52,106 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:08:52,112 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:08:52,113 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:08:52,113 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:17:46,516 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:17:48,475 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:17:48,482 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:17:48,482 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:17:48,483 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:34:33,504 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:34:35,480 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:34:35,486 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:34:35,486 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:34:35,487 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:36:03,372 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:36:05,387 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:36:05,394 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:36:05,395 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:36:05,397 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:36:27,633 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:36:29,549 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:36:29,555 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:36:29,555 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:36:29,556 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:37:29,157 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:37:31,164 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:37:31,169 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:37:31,169 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:37:31,171 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:37:59,457 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:38:01,313 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:38:01,319 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:38:01,319 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:38:01,320 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:38:36,611 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:38:55,076 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:38:55,083 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:38:55,084 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:38:55,084 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:39:19,338 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:39:21,240 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:39:21,245 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:39:21,245 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:39:21,246 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:39:55,588 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:39:57,304 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:39:57,310 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:39:57,310 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:39:57,311 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:10,000 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:11,768 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:11,773 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:11,773 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:11,775 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:31,940 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:33,685 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:33,691 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:33,691 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:33,692 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:41:57,959 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:41:59,820 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:41:59,829 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:41:59,830 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:41:59,835 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:42:11,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:42:13,718 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:42:13,724 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:42:13,724 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:42:13,725 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:42:37,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:43:43,609 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:43:43,614 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:43:43,615 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:43:43,615 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:55:14,493 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:55:16,355 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:55:16,361 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:55:16,361 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:55:16,366 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-23 23:55:28,490 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-23 23:55:30,260 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-23 23:55:30,266 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-23 23:55:30,266 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-23 23:55:30,267 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:06:35,964 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:06:37,512 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:06:37,517 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:06:37,517 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:06:37,518 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:07:29,047 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:07:30,544 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:07:30,550 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:07:30,551 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:07:30,551 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:07:53,753 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:07:55,172 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:07:55,177 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:07:55,177 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:07:55,178 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:11:07,095 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:15:19,604 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:15:19,614 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:15:19,623 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:15:19,624 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:19:36,151 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:19:37,666 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:19:37,671 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:19:37,672 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:19:37,672 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:23:40,135 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:23:41,785 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:23:41,792 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:23:41,792 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:23:41,793 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:24:40,358 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:24:41,622 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:24:41,627 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:24:41,627 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:24:41,628 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:25:07,861 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:25:09,384 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:25:09,389 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:25:09,389 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:25:09,390 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:35:47,510 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:35:49,088 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:35:49,094 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:35:49,094 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:35:49,095 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:39:31,337 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:39:33,001 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:39:33,006 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:39:33,007 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:39:33,007 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:40:25,499 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:40:26,941 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:40:26,962 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:41:43,730 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:41:45,291 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:41:45,295 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:41:45,296 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:41:45,296 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 00:48:20,062 | INFO | backend.mqtt_client | MQTT-клієнт зупинено
+2026-11-24 00:48:21,719 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 00:48:21,724 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 00:48:21,725 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 00:48:21,725 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 03:48:31,534 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 03:48:31,535 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 15:40:17,537 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 15:40:17,591 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 17:39:43,620 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 17:39:43,626 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 18:50:57,565 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 18:50:57,566 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 19:15:22,549 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 19:15:22,550 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 20:07:05,566 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 20:07:05,581 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 20:17:42,075 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 20:17:42,076 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 20:24:58,432 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 20:24:58,432 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 20:49:20,423 | INFO | backend.mqtt_client | Віртуальні виконавчі пристрої перевірено
+2026-11-24 20:49:20,655 | INFO | backend.mqtt_client | MQTT-клієнт запущено
+2026-11-24 20:49:20,705 | INFO | backend.mqtt_client | MQTT: успішне підключення до брокера
+2026-11-24 20:49:20,706 | INFO | backend.mqtt_client | MQTT: підписка на тему enterprise/sensors/reading
+2026-11-24 20:49:54,631 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:49:54,746 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:04,106 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:04,193 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:13,479 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:13,644 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:22,855 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:22,946 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:32,191 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:32,269 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:41,612 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:41,699 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:50:51,185 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:50:51,301 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:00,726 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:00,840 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:10,119 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:10,206 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:19,640 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:19,725 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:29,054 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:29,162 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:38,590 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:38,675 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:51:47,942 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:51:48,052 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 20:52:44,147 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 20:52:44,279 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:03:20,049 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:03:20,180 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:03:20,192 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:03:29,079 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:03:29,201 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:03:29,206 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:03:38,343 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:03:38,468 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:03:38,475 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:14:14,647 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:14:14,748 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:14:14,755 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:14:14,761 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:14:24,978 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:14:25,125 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:14:25,132 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:14:25,137 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:14:39,469 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:14:39,579 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:14:39,585 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:14:39,590 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3917.0 raw
+2026-11-24 21:15:00,079 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:15:00,187 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:15:00,194 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:15:00,200 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 200.0 raw
+2026-11-24 21:15:12,353 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:15:12,465 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:15:12,471 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:15:12,478 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 488.0 raw
+2026-11-24 21:23:14,840 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:14,939 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:14,945 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:14,950 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:14,956 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:23:23,757 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:23,877 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:23,883 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:23,889 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:23,897 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:23:32,601 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:32,702 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:32,708 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:32,714 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:32,720 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:23:41,520 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:41,611 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:41,617 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:41,622 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:41,627 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:23:50,383 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:50,431 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:50,436 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:50,442 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:50,448 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:23:59,247 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:23:59,340 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:23:59,345 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:23:59,351 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:23:59,357 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:24:08,180 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:24:08,280 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:24:08,286 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:24:08,292 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:24:08,297 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 1.0 bool
+2026-11-24 21:24:17,130 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 53.7 C
+2026-11-24 21:24:17,221 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:24:17,227 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:24:17,233 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:24:17,239 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:24:25,903 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 53.7 C
+2026-11-24 21:24:26,031 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 22.0 %
+2026-11-24 21:24:26,038 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3865.0 raw
+2026-11-24 21:24:26,043 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:24:26,050 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:24:57,215 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 53.7 C
+2026-11-24 21:24:57,361 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 22.0 %
+2026-11-24 21:24:57,367 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3865.0 raw
+2026-11-24 21:24:57,373 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:24:57,379 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:25:06,481 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 53.7 C
+2026-11-24 21:25:06,587 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 22.0 %
+2026-11-24 21:25:06,593 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3865.0 raw
+2026-11-24 21:25:06,599 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:25:06,606 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 1.0 bool
+2026-11-24 21:27:43,464 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:27:43,611 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:27:43,617 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:27:43,623 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:27:43,628 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:30:01,428 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:30:01,597 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:30:01,604 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:30:01,611 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:30:01,618 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:32:18,117 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:32:18,240 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:32:18,246 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:32:18,251 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:32:18,257 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:33:02,929 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:33:03,040 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:33:03,046 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:33:03,052 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:33:03,058 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:33:46,306 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 63.9 C
+2026-11-24 21:33:46,385 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 84.0 %
+2026-11-24 21:33:46,391 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:33:46,397 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:33:46,403 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:34:16,883 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = -40.0 C
+2026-11-24 21:34:16,995 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 84.0 %
+2026-11-24 21:34:17,001 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:34:17,007 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:34:17,013 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:34:35,696 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:34:35,804 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:34:35,810 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:34:35,815 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:34:35,821 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:34:47,868 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:34:47,946 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:34:47,953 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:34:47,958 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:34:47,964 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:34:56,998 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:34:57,087 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:34:57,093 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:34:57,099 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:34:57,105 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:35:06,151 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 24.0 C
+2026-11-24 21:35:06,248 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 40.0 %
+2026-11-24 21:35:06,253 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:35:06,259 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:35:06,266 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:35:50,984 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:35:51,173 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:35:51,179 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:35:51,186 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:35:51,192 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:00,485 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:00,661 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:00,667 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:00,673 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:00,679 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:10,062 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:10,207 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:10,216 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:10,222 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:10,230 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:19,631 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:19,773 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:19,780 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:19,786 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:19,793 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:28,898 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:29,036 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:29,042 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:29,047 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:29,054 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:38,418 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:38,551 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:38,558 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:38,564 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:38,570 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:48,032 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:48,144 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:48,151 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:48,157 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:48,163 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:36:57,086 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:36:57,216 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:36:57,223 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:36:57,230 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:36:57,235 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:37:06,538 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:37:06,683 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:37:06,689 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:37:06,695 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:37:06,701 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:37:25,710 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:37:25,867 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:37:25,875 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:37:25,882 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:37:25,888 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:37:44,028 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:37:44,151 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:37:44,158 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:37:44,165 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:37:44,172 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 1.0 bool
+2026-11-24 21:38:28,126 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:38:28,233 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:38:28,239 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:38:28,245 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1001.0 raw
+2026-11-24 21:38:28,250 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 1.0 bool
+2026-11-24 21:38:37,452 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:38:37,571 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:38:37,577 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3628.0 raw
+2026-11-24 21:38:37,583 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 1979.0 raw
+2026-11-24 21:38:37,589 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:38:46,730 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 52.0 C
+2026-11-24 21:38:46,822 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:38:46,827 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3954.0 raw
+2026-11-24 21:38:46,833 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:38:46,838 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:38:55,972 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = -1.1 C
+2026-11-24 21:38:56,085 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:38:56,091 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:38:56,097 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:38:56,103 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:05,221 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:05,313 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:05,319 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:05,325 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:05,331 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:14,390 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:14,486 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:14,492 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:14,497 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:14,503 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:24,267 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:24,359 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:24,366 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:24,372 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:24,378 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:33,618 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:33,693 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:33,699 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:33,704 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:33,710 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:42,929 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:43,109 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:43,115 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:43,121 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:43,127 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool
+2026-11-24 21:39:52,510 | INFO | backend.mqtt_client | Збережено: ESP32_01, temperature = 36.3 C
+2026-11-24 21:39:52,607 | INFO | backend.mqtt_client | Збережено: ESP32_01, humidity = 70.0 %
+2026-11-24 21:39:52,613 | INFO | backend.mqtt_client | Збережено: ESP32_01, gas = 3923.0 raw
+2026-11-24 21:39:52,619 | INFO | backend.mqtt_client | Збережено: ESP32_01, light = 3797.0 raw
+2026-11-24 21:39:52,625 | INFO | backend.mqtt_client | Збережено: ESP32_01, motion = 0.0 bool

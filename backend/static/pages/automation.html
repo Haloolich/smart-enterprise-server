@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Enterprise | Автоматизація</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div id="sidebar-container"></div>
+
+    <header class="header">
+        <div>
+            <h1>Автоматизація</h1>
+            <p>Керування режимами та правилами автоматичної роботи</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section">
+            <h2>Режим роботи системи</h2>
+
+            <div class="mode-card">
+                <label for="control-mode">Оберіть режим:</label>
+
+                <select id="control-mode">
+                    <option value="manual">Ручний</option>
+                    <option value="automatic">Автоматичний</option>
+                    <option value="mixed">Змішаний</option>
+                </select>
+
+                <h3 id="control-mode-title">Завантаження...</h3>
+                <p id="control-mode-description"></p>
+                <p id="mode-message"></p>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <h2>Створення правила автоматизації</h2>
+
+            <div class="mode-card">
+                <form id="rule-form">
+
+                    <label for="rule-name">Назва правила</label>
+                    <input
+                        type="text"
+                        id="rule-name"
+                        placeholder="Наприклад: Висока температура"
+                        required
+                    >
+
+                    <label for="rule-sensor">Датчик</label>
+                    <select id="rule-sensor" required>
+                        <option value="temperature">Температура</option>
+                        <option value="humidity">Вологість</option>
+                        <option value="gas">Рівень газу</option>
+                        <option value="light">Освітленість</option>
+                        <option value="motion">Рух</option>
+                    </select>
+
+                    
+                    <div id="operator-group">
+                        <label for="rule-operator">Умова</label>
+                        <select id="rule-operator" required>
+                            <option value="greater_than">Більше ніж</option>
+                            <option value="less_than">Менше ніж</option>
+                            <option value="equal">Дорівнює</option>
+                            <option value="greater_equal">Більше або дорівнює</option>
+                            <option value="less_equal">Менше або дорівнює</option>
+                        </select>
+                    </div>
+
+                    <div id="threshold-group">
+                        <label for="rule-threshold">Порогове значення</label>
+                        <input
+                            type="number"
+                            id="rule-threshold"
+                            step="any"
+                            placeholder="Наприклад: 30"
+                            required
+                        >
+                    </div>
+
+                    <div id="motion-group" hidden>
+                        <label for="rule-motion-state">Стан датчика руху</label>
+                        <select id="rule-motion-state">
+                            <option value="1">Виявлено рух</option>
+                            <option value="0">Рух не виявлено</option>
+                        </select>
+                    </div>
+
+
+                    <label for="rule-action">Дія</label>
+                    <select id="rule-action" required>
+                        <option value="turn_on_ventilation">
+                            Увімкнути вентиляцію
+                        </option>
+                        <option value="turn_off_ventilation">
+                            Вимкнути вентиляцію
+                        </option>
+                        <option value="turn_on_lighting">
+                            Увімкнути освітлення
+                        </option>
+                        <option value="turn_off_lighting">
+                            Вимкнути освітлення
+                        </option>
+                        <option value="send_alert">
+                            Надіслати сповіщення
+                        </option>
+                    </select>
+
+                    <label for="rule-description">Опис (необов'язково)</label>
+                    <textarea
+                        id="rule-description"
+                        rows="3"
+                        placeholder="Додаткова інформація про правило"
+                    ></textarea>
+
+                    <button type="submit">
+                        Створити правило
+                    </button>
+
+                    <p id="rule-message"></p>
+
+                </form>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <h2>Правила автоматизації</h2>
+
+            <div class="table-container">
+                <table id="rules-table">
+                    <thead>
+                        <tr>
+                            <th>Назва</th>
+                            <th>Умова</th>
+                            <th>Дія</th>
+                            <th>Стан</th>
+                            <th>Керування</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5">Завантаження правил...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h2>Події автоматизації</h2>
+
+            <div id="events-list">
+                Завантаження подій...
+            </div>
+        </section>
+
+        <footer>
+            Smart Enterprise Infrastructure Server
+        </footer>
+
+    </main>
+
+    <script src="/static/menu.js"></script>
+    <script src="/static/api.js"></script>
+    <script src="/static/automation.js"></script>
+
+</body>
+</html>

@@ -5,7 +5,8 @@ from sqlalchemy.orm import Session
 
 from backend.database.models import (
     AutomationRule,
-    AutomationEvent
+    AutomationEvent,
+    SystemSettings
 )
 
 
@@ -33,8 +34,19 @@ def check_condition(value, operator, threshold):
     return False
 
 
-# Перевірка всіх правил для отриманого показника
-def evaluate_rules(db: Session, sensor_type: str, value: float):
+# Перевірка правил автоматизації
+def evaluate_rules(
+    db: Session,
+    sensor_type: str,
+    value: float
+):
+    settings = db.query(SystemSettings).filter(
+        SystemSettings.id == 1
+    ).first()
+
+    # У ручному режимі автоматизація вимкнена
+    if settings and settings.control_mode == "manual":
+        return []
 
     rules = db.query(AutomationRule).filter(
         AutomationRule.sensor_type == sensor_type,
@@ -45,11 +57,18 @@ def evaluate_rules(db: Session, sensor_type: str, value: float):
 
     for rule in rules:
 
-        if check_condition(
+        # Перевіряємо поточну умову
+        condition_met = check_condition(
             value,
             rule.operator,
             rule.threshold
-        ):
+        )
+
+        # Перевіряємо попередній стан умови
+        previous_state = rule.last_condition_state
+
+        # Реагуємо тільки на перехід False -> True
+        if condition_met and not previous_state:
 
             event = AutomationEvent(
                 rule_id=rule.id,
@@ -65,10 +84,17 @@ def evaluate_rules(db: Session, sensor_type: str, value: float):
 
             db.add(event)
 
-            triggered_rules.append(rule.name)
+            triggered_rules.append({
+                "id": rule.id,
+                "name": rule.name,
+                "action": rule.action
+            })
 
             logger.warning(
                 f"СПРАЦЮВАЛО ПРАВИЛО: {rule.name}"
             )
+
+        # Запам'ятовуємо поточний стан умови
+        rule.last_condition_state = condition_met
 
     return triggered_rules
