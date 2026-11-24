@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 96, "left": -81.56, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -47.7, "left": -187.8, "attrs": {} },
+    { "type": "wokwi-gas-sensor", "id": "gas1", "top": 338.7, "left": -329, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 214.2,
+      "left": 113.2,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": 167.2,
+      "left": -247.38,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "dht1:VCC", "red", [ "h0" ] ],
+    [ "esp:15", "dht1:SDA", "green", [ "h28.8", "v-192", "h-211.3" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "h38.4", "v182.4" ] ],
+    [ "gas1:VCC", "esp:5V", "red", [ "h19.2", "v-87.3" ] ],
+    [ "esp:GND.2", "gas1:GND", "black", [ "h76.8", "v240.8" ] ],
+    [ "esp:34", "gas1:AOUT", "green", [ "h-67.05", "v192" ] ],
+    [ "ldr1:VCC", "esp:3V3", "red", [ "h-48", "v-249.6", "h-163.2", "v115.2" ] ],
+    [ "ldr1:GND", "esp:GND.3", "black", [ "h-38.4", "v-66.8" ] ],
+    [ "esp:35", "ldr1:AO", "green", [ "h-38.25", "v172.8", "h201.6", "v-115.9" ] ],
+    [ "pir1:VCC", "esp:5V", "red", [ "v0" ] ],
+    [ "esp:27", "pir1:OUT", "green", [ "h-19.05", "v57.6", "h-105.46" ] ],
+    [ "pir1:GND", "esp:GND.1", "black", [ "v9.6", "h57.34", "v-19.2" ] ]
+  ],
+  "dependencies": {}
+}

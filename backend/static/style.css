@@ -174,3 +174,744 @@ footer {
         height: 260px;
     }
 }
+
+.control-panel {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.control-panel p {
+    color: #64748b;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.control-panel select {
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: white;
+    font-size: 14px;
+    min-width: 180px;
+    cursor: pointer;
+}
+
+#mode-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #15803d;
+}
+
+@media (max-width: 600px) {
+    .control-panel {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+/* Панель виконавчих пристроїв */
+.actuator-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(260px, 1fr)
+    );
+    gap: 18px;
+}
+
+.actuator-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.actuator-card h3 {
+    font-size: 17px;
+    color: #263445;
+}
+
+.actuator-card p {
+    margin-top: 7px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* Стан пристрою */
+.actuator-state {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.actuator-state.enabled {
+    color: #15803d;
+}
+
+.actuator-state.disabled {
+    color: #dc2626;
+}
+
+/* Кнопки керування */
+.actuator-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.actuator-buttons button {
+    flex: 1;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.actuator-buttons button:first-child {
+    background: #2563eb;
+    color: white;
+}
+
+.actuator-buttons button:first-child:hover {
+    background: #1d4ed8;
+}
+
+.actuator-buttons button:last-child {
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.actuator-buttons button:last-child:hover {
+    background: #cbd5e1;
+}
+
+.actuator-buttons button:active {
+    transform: scale(0.97);
+}
+
+/* Повідомлення про виконання команди */
+#actuator-message {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #15803d;
+}
+
+@media (max-width: 600px) {
+    .actuator-buttons {
+        flex-direction: column;
+    }
+}
+
+
+/* Бічне сендвіч-меню */
+
+.menu-open {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background: #1e293b;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.2s;
+}
+
+.menu-open:hover {
+    background: #334155;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1002;
+    width: 280px;
+    height: 100vh;
+    background: #172033;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-bottom: 1px solid #334155;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 19px;
+    color: white;
+}
+
+.menu-close {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 6px;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 15px;
+    border-radius: 8px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.menu-link span {
+    width: 22px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-link:hover {
+    background: #334155;
+    color: white;
+}
+
+.menu-link.active {
+    background: #2563eb;
+    color: white;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1001;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.sidebar-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Сторінка автоматизації */
+
+.mode-card {
+    background: white;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.mode-card label {
+    display: block;
+    margin-bottom: 10px;
+    color: #475569;
+    font-weight: 600;
+}
+
+.mode-card select {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #1e293b;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mode-card h3 {
+    margin-top: 22px;
+    color: #2563eb;
+    font-size: 19px;
+}
+
+.mode-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+#mode-message {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+/* Таблиця правил */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+#rules-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 550px;
+}
+
+#rules-table th,
+#rules-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#rules-table th {
+    background: #f1f5f9;
+    color: #334155;
+    font-weight: 600;
+}
+
+#rules-table td {
+    color: #475569;
+}
+
+#rules-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Події автоматизації */
+
+#events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.event-item {
+    padding: 17px 20px;
+    background: #ffffff;
+    border-left: 4px solid #2563eb;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    color: #334155;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow-wrap: anywhere;
+}
+
+.event-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Форма створення правила автоматизації */
+
+#rule-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 550px;
+}
+
+#rule-form label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    color: #334155;
+    font-weight: 600;
+}
+
+#rule-form input,
+#rule-form select,
+#rule-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #1e293b;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#rule-form input:focus,
+#rule-form select:focus,
+#rule-form textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+#rule-form textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+#rule-form button {
+    width: fit-content;
+    padding: 12px 22px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+#rule-form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+#rule-form button:active {
+    transform: translateY(0);
+}
+
+#rule-message {
+    margin: 5px 0 0;
+    color: #16a34a;
+    font-weight: 600;
+}
+
+/* Коректне приховування полів */
+
+#rule-form [hidden] {
+    display: none !important;
+}
+
+
+/* Кнопки керування правилами автоматизації */
+
+#rules-table td:last-child {
+    white-space: nowrap;
+}
+
+.rule-edit-button,
+.rule-toggle-button,
+.rule-delete-button {
+    padding: 8px 12px;
+    margin: 3px;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.rule-edit-button {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+.rule-edit-button:hover {
+    background: #bfdbfe;
+    transform: translateY(-1px);
+}
+
+.rule-toggle-button {
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.rule-toggle-button:hover {
+    background: #cbd5e1;
+    transform: translateY(-1px);
+}
+
+.rule-delete-button {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.rule-delete-button:hover {
+    background: #fecaca;
+    transform: translateY(-1px);
+}
+
+.rule-edit-button:active,
+.rule-toggle-button:active,
+.rule-delete-button:active {
+    transform: translateY(0);
+}
+
+/* Журнал аудиту */
+
+.audit-header {
+    margin-bottom: 25px;
+}
+
+.audit-header h1 {
+    font-size: 26px;
+    color: #172b4d;
+    margin-bottom: 8px;
+}
+
+.audit-header p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.audit-card {
+    background: white;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.audit-card h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: #263445;
+}
+
+#refresh-audit {
+    padding: 11px 20px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#refresh-audit:hover {
+    background: #1d4ed8;
+}
+
+#audit-status {
+    margin-bottom: 15px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+#audit-table {
+    width: 100%;
+    min-width: 750px;
+    border-collapse: collapse;
+}
+
+#audit-table th {
+    background: #f1f5f9;
+    color: #334155;
+    font-weight: 600;
+}
+
+#audit-table th,
+#audit-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+#audit-table td {
+    color: #475569;
+}
+
+#audit-table tr:hover td {
+    background: #f8fafc;
+}
+
+#audit-table tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .audit-card {
+        padding: 15px;
+    }
+
+    #audit-table th,
+    #audit-table td {
+        padding: 10px;
+    }
+}
+
+/* Нижня частина бічного меню */
+.sidebar-footer {
+    margin-top: auto;
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Кнопка виходу */
+.logout-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s ease;
+}
+
+.logout-button:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.logout-button span {
+    font-size: 20px;
+}
+
+
+/* =====================================
+   КЕРУВАННЯ КОРИСТУВАЧАМИ
+===================================== */
+
+.user-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: end;
+}
+
+.user-form .form-group {
+    margin-bottom: 0;
+}
+
+.user-form input,
+.user-form select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.user-form button {
+    grid-column: 1 / -1;
+    width: fit-content;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #17365d;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.user-form button:hover {
+    background: #24558c;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.user-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.user-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #17365d;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.user-actions button:hover {
+    opacity: 0.85;
+}
+
+.user-actions .danger-button {
+    background: #dc2626;
+}
+
+.user-actions .success-button {
+    background: #16a34a;
+}
+
+.status-active {
+    color: #15803d;
+    font-weight: 600;
+}
+
+.status-blocked {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+#create-message,
+#users-message {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .user-form {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .user-form {
+        grid-template-columns: 1fr;
+    }
+
+    .user-form button {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    .user-actions {
+        flex-direction: column;
+    }
+}

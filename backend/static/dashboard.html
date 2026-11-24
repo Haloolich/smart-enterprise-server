@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Smart Enterprise | Dashboard</title>
+    <title>Smart Enterprise | Головна</title>
 
     <link rel="stylesheet" href="/static/style.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
+
+    <div id="sidebar-container"></div>
 
     <header class="header">
         <div>
@@ -21,7 +21,7 @@
         </div>
 
         <div class="connection">
-            <span class="status-dot"></span>
+            <span class="status-dot" id="status-dot"></span>
             <span id="server-status">Перевірка сервера...</span>
         </div>
     </header>
@@ -29,7 +29,23 @@
     <main class="container">
 
         <section class="section">
-            <h2>Поточні показники</h2>
+            <h2>Загальний стан системи</h2>
+
+            <div class="control-panel">
+                <div>
+                    <strong id="control-mode-title">
+                        Завантаження режиму...
+                    </strong>
+
+                    <p id="control-mode-description">
+                        Отримання налаштувань системи
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Поточні показники датчиків</h2>
 
             <div class="sensor-grid">
 
@@ -67,42 +83,26 @@
         </section>
 
         <section class="section">
-            <h2>Графік температури</h2>
+            <h2>Стан виконавчих пристроїв</h2>
 
-            <div class="chart-container">
-                <canvas id="temperature-chart"></canvas>
-            </div>
-        </section>
+            <div class="actuator-grid">
 
-        <section class="section">
-            <h2>Правила автоматизації</h2>
+                <div class="actuator-card">
+                    <h3>Система вентиляції</h3>
 
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Назва правила</th>
-                            <th>Датчик</th>
-                            <th>Умова</th>
-                            <th>Дія</th>
-                            <th>Стан</th>
-                        </tr>
-                    </thead>
+                    <span id="ventilation-state" class="actuator-state">
+                        Завантаження...
+                    </span>
+                </div>
 
-                    <tbody id="rules-table">
-                        <tr>
-                            <td colspan="5">Завантаження...</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                <div class="actuator-card">
+                    <h3>Система освітлення</h3>
 
-        <section class="section">
-            <h2>Журнал подій</h2>
+                    <span id="lighting-state" class="actuator-state">
+                        Завантаження...
+                    </span>
+                </div>
 
-            <div id="events-list">
-                <p>Завантаження подій...</p>
             </div>
         </section>
 
@@ -113,6 +113,8 @@
 
     </main>
 
+    <script src="/static/menu.js"></script>
+    <script src="/static/api.js"></script>
     <script src="/static/app.js"></script>
 
 </body>

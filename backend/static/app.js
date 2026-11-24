@@ -1,7 +1,3 @@
-
-const API_URL = "/api";
-
-
 // Елементи карток датчиків
 const sensorElements = {
     temperature: document.getElementById("temperature"),
@@ -11,49 +7,30 @@ const sensorElements = {
     motion: document.getElementById("motion")
 };
 
-
-// Створення графіка температури
-const chartContext = document
-    .getElementById("temperature-chart")
-    .getContext("2d");
-
-const temperatureChart = new Chart(chartContext, {
-    type: "line",
-
-    data: {
-        labels: [],
-        datasets: [{
-            label: "Температура, °C",
-            data: [],
-            borderColor: "#2563eb",
-            backgroundColor: "rgba(37, 99, 235, 0.1)",
-            fill: true,
-            tension: 0.3
-        }]
+// Назви та описи режимів
+const modeDescriptions = {
+    manual: {
+        title: "Ручний режим",
+        description: "Автоматичне виконання правил вимкнене. Керування пристроями здійснюється користувачем."
     },
-
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-
-        scales: {
-            y: {
-                beginAtZero: false
-            }
-        }
+    automatic: {
+        title: "Автоматичний режим",
+        description: "Сервер самостійно перевіряє показники та виконує правила автоматизації."
+    },
+    mixed: {
+        title: "Змішаний режим",
+        description: "Автоматизація працює, а користувач може вручну змінювати стан пристроїв."
     }
-});
+};
 
 
 // Перевірка доступності сервера
 async function checkServer() {
-    const statusElement =
-        document.getElementById("server-status");
-
-    const dot = document.querySelector(".status-dot");
+    const statusElement = document.getElementById("server-status");
+    const dot = document.getElementById("status-dot");
 
     try {
-        const response = await fetch(`${API_URL}/health`);
+        const response = await apiFetch(`${API_URL}/health`);
 
         if (!response.ok) {
             throw new Error("Сервер недоступний");
@@ -69,10 +46,10 @@ async function checkServer() {
 }
 
 
-// Отримання показників датчиків
+// Завантаження показників датчиків
 async function loadReadings() {
     try {
-        const response = await fetch(`${API_URL}/readings`);
+        const response = await apiFetch(`${API_URL}/readings`);
 
         if (!response.ok) {
             throw new Error("Помилка отримання показників");
@@ -82,14 +59,14 @@ async function loadReadings() {
 
         const latest = {};
 
-        // Знаходимо останній показник кожного типу
+        // Отримуємо останній показник кожного типу
         for (const reading of readings) {
             if (!latest[reading.sensor_type]) {
                 latest[reading.sensor_type] = reading;
             }
         }
 
-        // Оновлюємо картки
+        // Оновлюємо картки датчиків
         for (const [type, element] of Object.entries(sensorElements)) {
             const reading = latest[type];
 
@@ -101,156 +78,113 @@ async function loadReadings() {
             }
         }
 
-        // Формуємо дані графіка
-        const temperatureReadings = readings
-            .filter(item => item.sensor_type === "temperature")
-            .reverse()
-            .slice(-20);
-
-        temperatureChart.data.labels =
-            temperatureReadings.map(item =>
-                new Date(item.recorded_at).toLocaleTimeString(
-                    "uk-UA",
-                    {
-                        hour: "2-digit",
-                        minute: "2-digit",
-                        second: "2-digit"
-                    }
-                )
-            );
-
-        temperatureChart.data.datasets[0].data =
-            temperatureReadings.map(item => item.value);
-
-        temperatureChart.update();
-
-        document.getElementById("last-update").textContent =
-            "Останнє оновлення: " +
-            new Date().toLocaleTimeString("uk-UA");
-
     } catch (error) {
-        console.error(error);
+        console.error("Помилка завантаження датчиків:", error);
     }
 }
 
 
-// Отримання правил автоматизації
-async function loadRules() {
+// Завантаження режиму роботи
+async function loadControlMode() {
     try {
-        const response = await fetch(`${API_URL}/rules`);
+        const response = await apiFetch(`${API_URL}/control/mode`);
 
         if (!response.ok) {
-            throw new Error("Помилка отримання правил");
+            throw new Error("Не вдалося отримати режим роботи");
         }
 
-        const rules = await response.json();
+        const data = await response.json();
 
-        const table = document.getElementById("rules-table");
+        updateModeDescription(data.control_mode);
 
-        table.replaceChildren();
+    } catch (error) {
+        console.error("Помилка завантаження режиму:", error);
 
-        if (rules.length === 0) {
-            const row = document.createElement("tr");
-            const cell = document.createElement("td");
+        document.getElementById("control-mode-title").textContent =
+            "Режим недоступний";
 
-            cell.colSpan = 5;
-            cell.textContent = "Правил поки немає";
+        document.getElementById("control-mode-description").textContent =
+            "Не вдалося отримати налаштування системи";
+    }
+}
 
-            row.appendChild(cell);
-            table.appendChild(row);
-            return;
+
+// Відображення режиму роботи
+function updateModeDescription(mode) {
+    const info = modeDescriptions[mode];
+
+    if (!info) return;
+
+    document.getElementById("control-mode-title").textContent =
+        info.title;
+
+    document.getElementById("control-mode-description").textContent =
+        info.description;
+}
+
+
+// Завантаження станів виконавчих пристроїв
+async function loadActuators() {
+    try {
+        const response = await apiFetch(`${API_URL}/actuators`);
+
+        if (!response.ok) {
+            throw new Error("Не вдалося отримати пристрої");
         }
 
-        for (const rule of rules) {
-            const row = document.createElement("tr");
+        const actuators = await response.json();
 
-            const values = [
-                rule.name,
-                rule.sensor_type,
-                `${rule.operator} ${rule.threshold}`,
-                rule.action,
-                rule.enabled ? "Активне" : "Вимкнене"
-            ];
+        actuators.forEach(actuator => {
+            let stateElement = null;
 
-            for (const value of values) {
-                const cell = document.createElement("td");
-                cell.textContent = value;
-                row.appendChild(cell);
+            if (actuator.code === "VENTILATION_01") {
+                stateElement = document.getElementById("ventilation-state");
             }
 
-            row.lastChild.className =
-                rule.enabled ? "enabled" : "disabled";
+            if (actuator.code === "LIGHT_01") {
+                stateElement = document.getElementById("lighting-state");
+            }
 
-            table.appendChild(row);
-        }
+            if (!stateElement) return;
+
+            if (actuator.state === "on") {
+                stateElement.textContent = "Увімкнено";
+                stateElement.className = "actuator-state enabled";
+            } else {
+                stateElement.textContent = "Вимкнено";
+                stateElement.className = "actuator-state disabled";
+            }
+        });
 
     } catch (error) {
-        console.error(error);
+        console.error("Помилка завантаження пристроїв:", error);
     }
 }
 
 
-// Отримання журналу подій
-async function loadEvents() {
-    try {
-        const response = await fetch(`${API_URL}/events`);
-
-        if (!response.ok) {
-            throw new Error("Помилка отримання подій");
-        }
-
-        const events = await response.json();
-
-        const container = document.getElementById("events-list");
-
-        container.replaceChildren();
-
-        if (events.length === 0) {
-            const message = document.createElement("p");
-            message.textContent = "Автоматичних подій поки немає";
-            container.appendChild(message);
-            return;
-        }
-
-        for (const event of events.slice(0, 10)) {
-            const card = document.createElement("div");
-            card.className = "event";
-
-            const title = document.createElement("strong");
-            title.textContent = event.message;
-
-            const details = document.createElement("p");
-            details.textContent =
-                `${event.sensor_type}: ${event.value} | ` +
-                `${event.action} | ` +
-                `${new Date(event.created_at).toLocaleString("uk-UA")}`;
-
-            card.appendChild(title);
-            card.appendChild(details);
-
-            container.appendChild(card);
-        }
-
-    } catch (error) {
-        console.error(error);
-    }
+// Оновлення часу останнього оновлення
+function updateLastUpdate() {
+    document.getElementById("last-update").textContent =
+        "Останнє оновлення: " +
+        new Date().toLocaleTimeString("uk-UA");
 }
 
 
-// Оновлення всієї вебпанелі
+// Оновлення головної сторінки
 async function updateDashboard() {
     await Promise.all([
         checkServer(),
         loadReadings(),
-        loadRules(),
-        loadEvents()
+        loadControlMode(),
+        loadActuators()
     ]);
+
+    updateLastUpdate();
 }
 
 
 // Перше завантаження
 updateDashboard();
-
 
 // Автоматичне оновлення кожні 5 секунд
 setInterval(updateDashboard, 5000);
